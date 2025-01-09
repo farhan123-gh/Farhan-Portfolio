@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/resume.pdf"
 
 const Resume = () => {
   return (
@@ -9,7 +10,7 @@ const Resume = () => {
           You can download my Resume by clicking the button below.
         </p>
         <a
-          href="/FarhanResume.pdf"
+          href={resume}
           download
           className="inline-block px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-700"
         >
